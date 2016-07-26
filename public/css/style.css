@@ -4,14 +4,20 @@ body {
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
   min-height: 100%;
+  display: table;
+  font-family: 'Ruda', sans-serif;
   background: url('/img/background.jpg');
+  background-position: center center;
+  background-size: cover;
 }
 
 h1 {
   margin-top: 60px;
   color: white;
-  font-family: 'Ruda', sans-serif;
   font-size: 50px;
   font-weight: 900;
   letter-spacing: 1px;
@@ -21,21 +27,27 @@ p {
   line-height: 28px;
 }
 
-.centered {
+.container {
   text-align: center;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-.mt {
-  margin-top: 50px;
-  margin-bottom: 50px;
+.content {
+  text-align: center;
+  display: inline-block;
 }
 
 .btn-cta {
   color: white;
   background-color: transparent;
   border-color: white;
-  font-family: 'Ruda', sans-serif;
   font-size: 13px;
   letter-spacing: 2px;
-  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.btn-cta:hover {
+  color: #2f2f2f;
+  background-color: #ffffff;
+  border-color: #2f2f2f;
 }
