@@ -10,7 +10,7 @@ body {
   min-height: 100%;
   display: table;
   font-family: 'Ruda', sans-serif;
-  background: url('/img/background.jpg');
+  background: url('/img/background.min.jpg');
   background-position: center center;
   background-size: cover;
 }
