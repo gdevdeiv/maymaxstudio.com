@@ -12,3 +12,6 @@
 */
 
 $app->get('/', 'IndexController@getIndex');
+$app->get('/hundredjumps/latest', 'IndexController@getHundredJumpsLatest');
+$app->get('/hundredjumps/latest/etc2', 'IndexController@getHundredJumpsLatestETC2');
+$app->get('/hundredjumps/latest/atc', 'IndexController@getHundredJumpsLatestATC');
