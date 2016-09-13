@@ -33,13 +33,13 @@
 	</section>
 	<div id="main">
 		<section id="one" class="tiles">
-			<article>
+			<article itemscope itemtype="http://schema.org/Game">
 				<span class="image">
-	                <img src="/img/one.png" alt="Hundred Jumps">
+	                <img itemprop="thumbnailUrl" src="/img/one.png" alt="Hundred Jumps">
 				</span>
 				<header class="major">
-					<h3><a href="https://play.google.com/store/apps/details?id=com.maymaxstudio.hundredjumps" class="link">Hundred Jumps</a></h3>
-					<p>"Just a hundred jumps.. easy, right?"</p>
+					<h3><a itemprop="gameLocation" href="https://play.google.com/store/apps/details?id=com.maymaxstudio.hundredjumps" class="link"><span itemprop="name">Hundred Jumps</span></a></h3>
+					<p itemprop="description">"Just a hundred jumps.. easy, right?"</p>
 				</header>
 			</article>
 			<article>
